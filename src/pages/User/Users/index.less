@@ -1,0 +1,31 @@
+@import '~antd/lib/style/themes/default.less';
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .delete,
+    .update {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .delete {
+        color: #ff4d4f;
+    }
+    .update {
+        color: @primary-color;
+    }
+}
+
+.tableListForm{
+    margin-bottom: 16px;
+}
+
+.tableList {
+    .tableListOperator {
+      margin-bottom: 16px;
+      button {
+        margin-right: 8px;
+      }
+    }
+}
